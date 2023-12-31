@@ -34,9 +34,9 @@ body {
 }
 
 .logo:hover {
-    border: none;
-    background: #ff2978;
-    border-radius: 5%;
+  border: none;
+  background: #ff2978;
+  border-radius: 5%;
 }
 
 /*Código para o conteiner do menu*/
@@ -72,6 +72,13 @@ body {
 
 /* Código para quando o mause passar sobre ele*/
 #button:hover {
-    border: none;
-    background: #ff2978;
+  border: none;
+  background: #ff2978;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  height: 600px;
+  background: lightgrey;
 }
