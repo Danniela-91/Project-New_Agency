@@ -18,6 +18,8 @@ body {
   box-shadow: 2px 5px #dce3f0; /*Usado para criar efeito sombra*/
   justify-content: center;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 /*Código para o conteiner da logo*/
@@ -77,6 +79,7 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
 }
 
 /* Código para 50% do conteiner do lado esquerdo */
@@ -110,7 +113,7 @@ body {
 
 /* Código para quando o mause passar sobre ele*/
 .contact-btn:hover {
-    background: #180f4a;
+  background: #180f4a;
 }
 
 /* Código para 50% do conteiner do lado direito */
@@ -119,4 +122,91 @@ body {
   flex: 40%;
   text-align: center; /* Valor centralizar a img*/
   margin-top: 5px;
+}
+
+.serviços {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 1px solid black;
+  padding: 5%;
+  text-align: center;
+  width: 90%;
+}
+
+section h2 {
+  width: 100%;
+  font-size: 50px;
+  font-family: "Lobster", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  color: #180f4a;
+  text-align: center;
+}
+
+section {
+  display: inline-block;
+  margin-top: 5%;
+}
+
+.card {
+  display: fl;
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ff2978;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 90%;
+}
+
+.texto-oculto {
+    display: none;
+  }
+  
+.card:hover {
+  color: white;
+  background: #ff2978;
+  padding: 50px;
+}
+
+.card:hover img {
+  display: none;
+}
+
+.card:hover .card-text {
+  display: none;
+}
+
+.card:hover .texto-oculto {
+  display: block;
+}
+
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180f4a, #090422, black);
+    text-align: center;
+    border-top: 5px solid #ff2978;
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.agency {
+    font-family: "Lobster", sans-serif;
+    color: white;
+    font-size: 34px;
+}
+
+.copy {
+    color: white;
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
 }
